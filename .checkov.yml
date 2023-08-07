@@ -1,0 +1,11 @@
+soft-fail: false
+download-external-modules: true
+evaluate-variables: true
+external-modules-download-path: .external_modules
+framework:
+  - all
+output: cli
+quiet: false
+skip-fixes: false
+skip-check:
+  - CKV_AZURE_136
